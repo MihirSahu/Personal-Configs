@@ -1,0 +1,40 @@
+{
+  "name": "nextcloud/circles",
+  "description": "circles",
+  "minimum-stability": "stable",
+  "license": "agpl",
+  "config": {
+    "optimize-autoloader": true,
+    "classmap-authoritative": true,
+    "autoloader-suffix": "Circles",
+    "platform": {
+      "php": "7.4"
+    }
+  },
+  "authors": [
+    {
+      "name": "Maxence Lange",
+      "email": "maxence@artificial-owl.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OCA\\Circles\\": "lib/"
+    }
+  },
+  "scripts": {
+    "cs:check": "php-cs-fixer fix --dry-run --diff",
+    "cs:fix": "php-cs-fixer fix",
+    "lint": "find . -name \\*.php -not -path './vendor/*' -print0 | xargs -0 -n1 php -l",
+    "psalm": "psalm --threads=1 --update-baseline",
+    "psalm:update-baseline": "psalm --threads=1 --update-baseline",
+    "psalm:clear": "psalm --clear-cache && psalm --clear-global-cache",
+    "psalm:fix": "psalm --alter --issues=InvalidReturnType,InvalidNullableReturnType,MissingParamType,InvalidFalsableReturnType"
+  },
+  "require-dev": {
+    "vimeo/psalm": "^4.24",
+    "nextcloud/coding-standard": "^0.5.0",
+    "phpunit/phpunit": "^9.5",
+    "christophwurst/nextcloud": "dev-stable24"
+  }
+}

@@ -1,0 +1,126 @@
+[2022-08-25 00:00:00.001 -04:00] [INF] [42] Emby.Server.Implementations.ScheduledTasks.TaskManager: "DailyTrigger" fired for task: "Playback Reporting Trim Db"
+[2022-08-25 00:00:00.001 -04:00] [INF] [42] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "TaskCleanDb"
+[2022-08-25 00:00:00.004 -04:00] [INF] [63] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Playback Reporting Trim Db"
+[2022-08-25 00:00:00.004 -04:00] [INF] [63] Jellyfin.Plugin.PlaybackReporting.TaskCleanDb: Playback Reporting Data Trim
+[2022-08-25 00:00:00.005 -04:00] [INF] [63] Jellyfin.Plugin.PlaybackReporting.TaskCleanDb: MaxDataAge : 3
+[2022-08-25 00:00:00.005 -04:00] [INF] [63] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: DeleteOldData : "delete from PlaybackActivity where DateCreated < '2022-05-25 00:00:00.0050629'"
+[2022-08-25 00:00:00.005 -04:00] [INF] [63] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Playback Reporting Trim Db" Completed after 0 minute(s) and 0 seconds
+[2022-08-25 00:00:00.006 -04:00] [INF] [63] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-25 00:00:01.003 -04:00] [INF] [63] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Playback Reporting Trim Db" set to fire at 2022-08-26 00:00:00.000 -04:00, which is 23:59:58.9969085 from now.
+[2022-08-25 01:15:33.469 -04:00] [INF] [65] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Download missing subtitles"
+[2022-08-25 01:15:33.470 -04:00] [INF] [65] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "SubtitleScheduledTask"
+[2022-08-25 01:15:33.471 -04:00] [INF] [90] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Download missing subtitles"
+[2022-08-25 01:15:33.472 -04:00] [INF] [90] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Download missing subtitles" Completed after 0 minute(s) and 0 seconds
+[2022-08-25 01:15:33.473 -04:00] [INF] [90] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-25 01:15:33.560 -04:00] [INF] [90] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Transcode Directory"
+[2022-08-25 01:15:33.561 -04:00] [INF] [90] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteTranscodeFileTask"
+[2022-08-25 01:15:33.561 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Transcode Directory"
+[2022-08-25 01:15:33.561 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2022-08-25 01:15:33.562 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-25 01:15:33.629 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Log Directory"
+[2022-08-25 01:15:33.629 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteLogFileTask"
+[2022-08-25 01:15:33.630 -04:00] [INF] [65] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Log Directory"
+[2022-08-25 01:15:33.630 -04:00] [INF] [65] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Log Directory" Completed after 0 minute(s) and 0 seconds
+[2022-08-25 01:15:33.631 -04:00] [INF] [65] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-25 01:15:33.766 -04:00] [INF] [65] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Cache Directory"
+[2022-08-25 01:15:33.766 -04:00] [INF] [65] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteCacheFileTask"
+[2022-08-25 01:15:33.767 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Cache Directory"
+[2022-08-25 01:15:33.774 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Cache Directory" Completed after 0 minute(s) and 0 seconds
+[2022-08-25 01:15:33.775 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-25 01:15:33.968 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "TasksRefreshChannels"
+[2022-08-25 01:15:33.968 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshChannelsScheduledTask"
+[2022-08-25 01:15:33.969 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "TasksRefreshChannels"
+[2022-08-25 01:15:33.970 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: "TasksRefreshChannels" Completed after 0 minute(s) and 0 seconds
+[2022-08-25 01:15:33.971 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-25 01:15:34.909 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Optimize database"
+[2022-08-25 01:15:34.909 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "OptimizeDatabaseTask"
+[2022-08-25 01:15:34.910 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Optimize database"
+[2022-08-25 01:15:34.910 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2022-08-25 01:15:34.939 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: jellyfin.db optimized successfully!
+[2022-08-25 01:15:34.939 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2022-08-25 01:15:34.940 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-25 01:15:45.796 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Scan Media Library"
+[2022-08-25 01:15:45.796 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshMediaLibraryTask"
+[2022-08-25 01:15:45.797 -04:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Scan Media Library"
+[2022-08-25 01:15:45.797 -04:00] [INF] [52] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/tvshows"
+[2022-08-25 01:15:45.797 -04:00] [INF] [52] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/movies"
+[2022-08-25 01:15:45.798 -04:00] [INF] [52] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2022-08-25 01:15:51.879 -04:00] [INF] [90] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 6 seconds
+[2022-08-25 01:15:51.880 -04:00] [INF] [25] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/tvshows"
+[2022-08-25 01:15:51.881 -04:00] [INF] [90] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-25 01:15:52.014 -04:00] [INF] [65] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2022-08-25 01:16:06.927 -04:00] [INF] [25] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Update Plugins"
+[2022-08-25 01:16:06.927 -04:00] [INF] [25] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PluginUpdateTask"
+[2022-08-25 01:16:06.928 -04:00] [INF] [65] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Update Plugins"
+[2022-08-25 01:16:08.832 -04:00] [ERR] [65] Emby.Server.Implementations.Updates.InstallationManager: An error occurred while accessing the plugin manifest: "https://repo.codyrobibero.dev/manifest.json"
+System.Net.Http.HttpRequestException: Name or service not known (repo.codyrobibero.dev:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): Name or service not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsyncCore[T](Task`1 taskResponse, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Emby.Server.Implementations.Updates.InstallationManager.GetPackages(String manifestName, String manifest, Boolean filterIncompatible, CancellationToken cancellationToken)
+[2022-08-25 01:16:08.838 -04:00] [INF] [65] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2022-08-25 01:16:08.839 -04:00] [INF] [65] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-25 01:59:59.997 -04:00] [INF] [37] Emby.Server.Implementations.ScheduledTasks.TaskManager: "DailyTrigger" fired for task: "Extract Chapter Images"
+[2022-08-25 01:59:59.998 -04:00] [INF] [37] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "ChapterImagesTask"
+[2022-08-25 01:59:59.999 -04:00] [INF] [88] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Extract Chapter Images"
+[2022-08-25 02:00:00.003 -04:00] [INF] [88] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extract Chapter Images" Completed after 0 minute(s) and 0 seconds
+[2022-08-25 02:00:00.006 -04:00] [INF] [88] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-25 02:00:01.004 -04:00] [INF] [88] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2022-08-26 02:00:00.000 -04:00, which is 23:59:58.9952302 from now.
+[2022-08-25 02:15:43.599 -04:00] [INF] [42] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Refresh Guide"
+[2022-08-25 02:15:43.599 -04:00] [INF] [42] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshGuideScheduledTask"
+[2022-08-25 02:15:43.600 -04:00] [INF] [106] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Refresh Guide"
+[2022-08-25 02:15:46.599 -04:00] [INF] [105] Emby.Server.Implementations.LiveTv.LiveTvManager: Refreshing guide with 7 days of guide data
+[2022-08-25 02:15:46.600 -04:00] [INF] [105] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 2 seconds
+[2022-08-25 02:15:46.601 -04:00] [INF] [105] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-25 03:49:53.749 -04:00] [INF] [100] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Merge All Movies"
+[2022-08-25 03:49:53.750 -04:00] [INF] [100] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "MergeMoviesTask"
+[2022-08-25 03:49:53.751 -04:00] [INF] [34] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Merge All Movies"
+[2022-08-25 03:49:53.751 -04:00] [INF] [34] Jellyfin.Api.Controllers.VideosController: Starting plugin, Merging Movies
+[2022-08-25 03:49:53.752 -04:00] [INF] [34] Jellyfin.Api.Controllers.VideosController: Scanning for repeated movies
+[2022-08-25 03:49:53.755 -04:00] [INF] [34] Jellyfin.Api.Controllers.VideosController: All movies merged
+[2022-08-25 03:49:53.755 -04:00] [INF] [34] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Merge All Movies" Completed after 0 minute(s) and 0 seconds
+[2022-08-25 03:49:53.756 -04:00] [INF] [34] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-25 03:49:53.919 -04:00] [INF] [22] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Merge All Episodes"
+[2022-08-25 03:49:53.919 -04:00] [INF] [22] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "MergeEpisodesTask"
+[2022-08-25 03:49:53.920 -04:00] [INF] [22] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Merge All Episodes"
+[2022-08-25 03:49:53.920 -04:00] [INF] [22] Jellyfin.Api.Controllers.VideosController: Starting plugin, Merging Episodes
+[2022-08-25 03:49:53.921 -04:00] [INF] [22] Jellyfin.Api.Controllers.VideosController: Scanning for repeated episodes
+[2022-08-25 03:49:53.922 -04:00] [INF] [22] Jellyfin.Api.Controllers.VideosController: Merging Episodes task finished
+[2022-08-25 03:49:53.922 -04:00] [INF] [22] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Merge All Episodes" Completed after 0 minute(s) and 0 seconds
+[2022-08-25 03:49:53.923 -04:00] [INF] [22] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-25 03:49:54.067 -04:00] [INF] [34] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Scan library for new box sets"
+[2022-08-25 03:49:54.067 -04:00] [INF] [34] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshLibraryTask"
+[2022-08-25 03:49:54.068 -04:00] [INF] [34] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Scan library for new box sets"
+[2022-08-25 03:49:54.068 -04:00] [INF] [34] Jellyfin.Plugin.TMDbBoxSets.ScheduledTasks.RefreshLibraryTask: Starting TMDbBoxSets refresh library task
+[2022-08-25 03:49:54.069 -04:00] [INF] [34] Jellyfin.Plugin.TMDbBoxSets.TMDbBoxSetManager: Found 0 TMDb collection(s) across all movies
+[2022-08-25 03:49:54.070 -04:00] [INF] [34] Jellyfin.Plugin.TMDbBoxSets.ScheduledTasks.RefreshLibraryTask: TMDbBoxSets refresh library task finished
+[2022-08-25 03:49:54.070 -04:00] [INF] [34] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan library for new box sets" Completed after 0 minute(s) and 0 seconds
+[2022-08-25 03:49:54.072 -04:00] [INF] [34] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-25 13:15:45.797 -04:00] [INF] [94] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Scan Media Library"
+[2022-08-25 13:15:45.797 -04:00] [INF] [94] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshMediaLibraryTask"
+[2022-08-25 13:15:45.798 -04:00] [INF] [102] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Scan Media Library"
+[2022-08-25 13:15:45.798 -04:00] [INF] [102] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/tvshows"
+[2022-08-25 13:15:45.799 -04:00] [INF] [102] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/movies"
+[2022-08-25 13:15:45.799 -04:00] [INF] [102] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2022-08-25 13:15:52.463 -04:00] [INF] [54] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 6 seconds
+[2022-08-25 13:15:52.467 -04:00] [INF] [86] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2022-08-25 13:15:52.467 -04:00] [INF] [54] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-08-25 13:15:52.531 -04:00] [INF] [24] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/tvshows"
+[2022-08-25 23:59:59.998 -04:00] [INF] [39] Emby.Server.Implementations.ScheduledTasks.TaskManager: "DailyTrigger" fired for task: "Playback Reporting Trim Db"
+[2022-08-25 23:59:59.999 -04:00] [INF] [39] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "TaskCleanDb"

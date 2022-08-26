@@ -1,0 +1,15 @@
+{
+  "category": "General",
+  "changelog": "### Bug Fixes ###\n- Fix CSV Export Format (#73) @mwildgoose\n\n### Code or Repo Maintenance ###\n- Use meta ci (#66) @crobibero\n- Performance improvements (#59) @Bond-009\n- Style fixes, enable analysis and nullable (#57) @Bond-009\n\n### CI \u0026 build changes ###\n- fix: meta ci workflows (#68) @h1dden-da3m0n\n- Use meta ci (#66) @crobibero",
+  "description": "Generate reports of your media library",
+  "guid": "d4312cd9-5c90-4f38-82e8-51da566790e8",
+  "name": "Reports",
+  "overview": "Generate reports of your media library",
+  "owner": "jellyfin",
+  "targetAbi": "10.8.1.0",
+  "timestamp": "2022-07-16T08:47:59.0000000Z",
+  "version": "15.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/Reports_15.0.0.0/jellyfin-plugin-reports.png"
+}

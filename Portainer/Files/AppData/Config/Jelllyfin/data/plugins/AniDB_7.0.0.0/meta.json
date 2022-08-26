@@ -1,0 +1,15 @@
+{
+  "category": "Metadata",
+  "changelog": "### New features and improvements ###\n- Add AniDbExternalEpisodeId (#32) @Nalsai\n- Add support for \u0022Mahoutsukai\u0022 and fix \u0022Gekijyouban\u0022 (#31) @Nalsai\n\n### Bug Fixes ###\n- Fix automatically detecting Movies (#38) @Nalsai\n- Add support for \u0022Mahoutsukai\u0022 and fix \u0022Gekijyouban\u0022 (#31) @Nalsai\n\n### CI \u0026 build changes ###\n- fix: meta ci workflows (#35) @h1dden-da3m0n",
+  "description": "AniDB metadata provider\n",
+  "guid": "a2b2a7ed-aa28-4521-a64a-63d86901f246",
+  "name": "AniDB",
+  "overview": "AniDB metadata provider",
+  "owner": "jellyfin",
+  "targetAbi": "10.8.1.0",
+  "timestamp": "2022-07-09T11:23:50.0000000Z",
+  "version": "7.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/AniDB_7.0.0.0/jellyfin-plugin-anidb.png"
+}

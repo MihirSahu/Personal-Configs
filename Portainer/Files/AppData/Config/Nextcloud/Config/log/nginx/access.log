@@ -1,0 +1,8 @@
+192.168.0.20 - - [22/Aug/2022:23:45:31 -0400] "GET / HTTP/2.0" 302 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36"
+192.168.0.20 - - [22/Aug/2022:23:45:32 -0400] "GET /login HTTP/2.0" 200 5429 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36"
+192.168.0.20 - - [22/Aug/2022:23:45:33 -0400] "GET /apps/theming/styles?v=0 HTTP/2.0" 200 532 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36"
+192.168.0.20 - - [22/Aug/2022:23:45:33 -0400] "GET /apps/accessibility/css/user-a82fd95db10ff25dfad39f07372ebe37 HTTP/2.0" 200 3637 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36"
+192.168.0.20 - - [22/Aug/2022:23:45:33 -0400] "GET /js/core/merged-template-prepend.js?v=9bc9359a-0 HTTP/2.0" 200 3054 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36"
+192.168.0.20 - - [22/Aug/2022:23:45:33 -0400] "GET /svg/core/logo/logo?color=ffffff&v=1 HTTP/2.0" 200 406 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36"
+192.168.0.20 - - [22/Aug/2022:23:45:35 -0400] "GET /apps/theming/favicon?v=0 HTTP/2.0" 200 8786 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36"
+192.168.0.20 - - [22/Aug/2022:23:45:35 -0400] "GET /apps/theming/favicon?v=0 HTTP/2.0" 200 8786 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36"

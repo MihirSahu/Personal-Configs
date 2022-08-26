@@ -1,0 +1,15 @@
+{
+  "category": "Metadata",
+  "changelog": "### Code or Repo Maintenance ###\n- Fix build (#36) @crobibero\n\n### Dependency updates ###\n- chore(deps): bump Microsoft.Extensions.Http from 5.0.0 to 6.0.0 (#33) @dependabot",
+  "description": "Get TV metadata from TVmaze\n",
+  "guid": "a4a488d0-17a3-4919-8d82-7f3de4f6b209",
+  "name": "TVmaze",
+  "overview": "Get TV metadata from TVmaze",
+  "owner": "jellyfin",
+  "targetAbi": "10.8.0.0",
+  "timestamp": "2022-01-08T12:26:09.0000000Z",
+  "version": "10.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/TVmaze_10.0.0.0/jellyfin-plugin-tvmaze.png"
+}

@@ -1,0 +1,15 @@
+{
+  "category": "Metadata",
+  "changelog": "### Code or Repo Maintenance ###\n- Use BaseItemKind (#59) @crobibero\n- update ruleset (#55) @crobibero\n\n### Dependency updates ###\n- chore(deps): bump Microsoft.Extensions.Http from 5.0.0 to 6.0.0 (#54) @dependabot",
+  "description": "Get TV metadata from TheTvdb\n",
+  "guid": "a677c0da-fac5-4cde-941a-7134223f14c8",
+  "name": "TheTVDB",
+  "overview": "Get TV metadata from TheTvdb",
+  "owner": "jellyfin",
+  "targetAbi": "10.8.0.0",
+  "timestamp": "2022-01-08T12:25:42.0000000Z",
+  "version": "8.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/TheTVDB_8.0.0.0/jellyfin-plugin-tvdb.png"
+}

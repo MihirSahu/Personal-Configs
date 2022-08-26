@@ -1,0 +1,33 @@
+[2022-08-15 19:02:15.481] [remoteagent] [info] 
+
+
+
+
+[2022-08-15 19:02:15.481] [remoteagent] [info] Extension host agent started.
+[2022-08-15 19:02:24.725] [remoteagent] [info] [192.168.0.17][90a6dea0][ManagementConnection] New connection established.
+[2022-08-15 19:02:24.893] [remoteagent] [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /app/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
+- /app/code-server/lib/vscode/out/bootstrap-amd.js
+- /app/code-server/out/node/util.js
+- /app/code-server/out/node/cli.js
+- /app/code-server/out/node/entry.js
+[2022-08-15 19:02:26.080] [remoteagent] [info] [192.168.0.17][39d8baf2][ExtensionHostConnection] New connection established.
+[2022-08-15 19:02:26.206] [remoteagent] [info] [192.168.0.17][39d8baf2][ExtensionHostConnection] <219> Launched Extension Host Process.
+[2022-08-15 19:03:19.376] [remoteagent] [info] [192.168.0.17][90a6dea0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-08-15 19:03:19.454] [remoteagent] [info] [192.168.0.17][39d8baf2][ExtensionHostConnection] <219> Extension Host Process exited with code: 0, signal: null.
+[2022-08-15 19:03:41.988] [remoteagent] [info] [192.168.0.17][13defdaa][ManagementConnection] New connection established.
+[2022-08-15 19:03:43.261] [remoteagent] [info] [192.168.0.17][df258601][ExtensionHostConnection] New connection established.
+[2022-08-15 19:03:43.344] [remoteagent] [info] [192.168.0.17][df258601][ExtensionHostConnection] <292> Launched Extension Host Process.
+[2022-08-15 19:03:44.103] [remoteagent] [info] [192.168.0.17][13defdaa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-08-15 19:07:58.168] [remoteagent] [info] [192.168.0.17][a6f314e9][ManagementConnection] New connection established.
+[2022-08-15 19:07:59.343] [remoteagent] [info] [192.168.0.17][cdc5ba26][ExtensionHostConnection] New connection established.
+[2022-08-15 19:07:59.514] [remoteagent] [info] [192.168.0.17][cdc5ba26][ExtensionHostConnection] <316> Launched Extension Host Process.
+[2022-08-15 19:08:16.286] [remoteagent] [info] [192.168.0.17][a6f314e9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-08-15 19:08:16.335] [remoteagent] [info] [192.168.0.17][cdc5ba26][ExtensionHostConnection] <316> Extension Host Process exited with code: 0, signal: null.
+[2022-08-15 19:12:58.423] [remoteagent] [info] [192.168.0.17][df258601][ExtensionHostConnection] <292> Extension Host Process exited with code: 0, signal: null.
+[2022-08-17 02:35:47.318] [remoteagent] [info] [192.168.0.17][e9a6ec63][ManagementConnection] New connection established.
+[2022-08-17 02:35:48.474] [remoteagent] [info] [192.168.0.17][ef29fcc0][ExtensionHostConnection] New connection established.
+[2022-08-17 02:35:48.627] [remoteagent] [info] [192.168.0.17][ef29fcc0][ExtensionHostConnection] <343> Launched Extension Host Process.
+[2022-08-17 02:36:20.793] [remoteagent] [info] [192.168.0.17][e9a6ec63][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-08-17 02:36:20.882] [remoteagent] [info] [192.168.0.17][ef29fcc0][ExtensionHostConnection] <343> Extension Host Process exited with code: 0, signal: null.

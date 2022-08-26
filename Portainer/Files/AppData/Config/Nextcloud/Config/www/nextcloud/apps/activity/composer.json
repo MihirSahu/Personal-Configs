@@ -1,0 +1,30 @@
+{
+	"name": "nextcloud/activity",
+	"description": "activity",
+	"license": "AGPL",
+	"require-dev": {
+		"phpunit/phpunit": "^9.5",
+		"nextcloud/coding-standard": "^1.0.0",
+		"psalm/phar": "^4.3",
+		"christophwurst/nextcloud": "dev-master"
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"classmap-authoritative": true,
+		"platform": {
+			"php": "7.4"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"OCP\\": "vendor/christophwurst/nextcloud/OCP",
+			"OCA\\Activity\\": "lib/"
+		}
+	},
+	"scripts": {
+		"lint": "find . -name \\*.php -not -path './vendor/*' -not -path './build/*' -print0 | xargs -0 -n1 php -l",
+		"cs:check": "vendor/bin/php-cs-fixer fix --dry-run --diff",
+		"cs:fix": "vendor/bin/php-cs-fixer fix",
+		"psalm": "psalm.phar"
+	}
+}

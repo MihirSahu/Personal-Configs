@@ -1,0 +1,62 @@
+[2022-08-15T23:01:35.431Z] info  code-server 4.5.2 35372d3832521d25327e11c9776096730df22ecb
+[2022-08-15T23:01:35.434Z] info  Using user-data-dir ~/data
+[2022-08-15T23:01:35.484Z] info  Using config file ~/.config/code-server/config.yaml
+[2022-08-15T23:01:35.484Z] info  HTTP server listening on http://0.0.0.0:8443/ 
+[2022-08-15T23:01:35.484Z] info    - Authentication is enabled
+[2022-08-15T23:01:35.485Z] info      - Using password from $PASSWORD
+[2022-08-15T23:01:35.485Z] info    - Not serving HTTPS 
+[2022-08-15T23:01:35.485Z] info    - Proxying the following domain:
+[2022-08-15T23:01:35.485Z] info      - *.example.my.domain
+[19:02:15] Extension host agent started.
+[19:02:24] [192.168.0.17][90a6dea0][ManagementConnection] New connection established.
+[19:02:26] [192.168.0.17][39d8baf2][ExtensionHostConnection] New connection established.
+[19:02:26] [192.168.0.17][39d8baf2][ExtensionHostConnection] <219> Launched Extension Host Process.
+[19:03:19] [192.168.0.17][90a6dea0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[19:03:19] [192.168.0.17][39d8baf2][ExtensionHostConnection] <219> Extension Host Process exited with code: 0, signal: null.
+[19:03:41] [192.168.0.17][13defdaa][ManagementConnection] New connection established.
+[19:03:43] [192.168.0.17][df258601][ExtensionHostConnection] New connection established.
+[19:03:43] [192.168.0.17][df258601][ExtensionHostConnection] <292> Launched Extension Host Process.
+[19:03:44] [192.168.0.17][13defdaa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[19:07:58] [192.168.0.17][a6f314e9][ManagementConnection] New connection established.
+[19:07:59] [192.168.0.17][cdc5ba26][ExtensionHostConnection] New connection established.
+[19:07:59] [192.168.0.17][cdc5ba26][ExtensionHostConnection] <316> Launched Extension Host Process.
+[19:08:16] [192.168.0.17][a6f314e9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[19:08:16] [192.168.0.17][cdc5ba26][ExtensionHostConnection] <316> Extension Host Process exited with code: 0, signal: null.
+[19:12:58] [192.168.0.17][df258601][ExtensionHostConnection] <292> Extension Host Process exited with code: 0, signal: null.
+[02:35:47] [192.168.0.17][e9a6ec63][ManagementConnection] New connection established.
+[02:35:48] [192.168.0.17][ef29fcc0][ExtensionHostConnection] New connection established.
+[02:35:48] [192.168.0.17][ef29fcc0][ExtensionHostConnection] <343> Launched Extension Host Process.
+[02:36:20] [192.168.0.17][e9a6ec63][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[02:36:20] [192.168.0.17][ef29fcc0][ExtensionHostConnection] <343> Extension Host Process exited with code: 0, signal: null.
+[2022-08-19T00:48:03.468Z] info  code-server 4.5.2 35372d3832521d25327e11c9776096730df22ecb
+[2022-08-19T00:48:03.479Z] info  Using user-data-dir ~/data
+[2022-08-19T00:48:03.558Z] info  Using config file ~/.config/code-server/config.yaml
+[2022-08-19T00:48:03.558Z] info  HTTP server listening on http://0.0.0.0:8443/ 
+[2022-08-19T00:48:03.558Z] info    - Authentication is enabled
+[2022-08-19T00:48:03.558Z] info      - Using password from $PASSWORD
+[2022-08-19T00:48:03.559Z] info    - Not serving HTTPS 
+[2022-08-19T00:48:03.559Z] info    - Proxying the following domain:
+[2022-08-19T00:48:03.560Z] info      - *.example.my.domain
+[01:45:36] Extension host agent started.
+[01:45:38] [192.168.0.22][bb506dc6][ManagementConnection] New connection established.
+[01:45:40] [192.168.0.22][9e1e26b7][ExtensionHostConnection] New connection established.
+[01:45:40] [192.168.0.22][9e1e26b7][ExtensionHostConnection] <245> Launched Extension Host Process.
+[01:45:43] [192.168.0.22][9e1e26b7][ExtensionHostConnection] <245> Extension Host Process exited with code: 0, signal: null.
+[01:45:43] [192.168.0.22][bb506dc6][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[01:45:43] [192.168.0.22][bb506dc6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-08-20T05:45:49.452Z] error Failed to get latest version [38;2;140;140;140m{"error":"getaddrinfo EAI_AGAIN api.github.com"}[0m
+[2022-08-21T18:56:31.585Z] info  code-server 4.5.2 35372d3832521d25327e11c9776096730df22ecb
+[2022-08-21T18:56:31.589Z] info  Using user-data-dir ~/data
+[2022-08-21T18:56:31.665Z] info  Using config file ~/.config/code-server/config.yaml
+[2022-08-21T18:56:31.666Z] info  HTTP server listening on http://0.0.0.0:8443/ 
+[2022-08-21T18:56:31.666Z] info    - Authentication is enabled
+[2022-08-21T18:56:31.667Z] info      - Using password from $PASSWORD
+[2022-08-21T18:56:31.667Z] info    - Not serving HTTPS 
+[2022-08-21T18:56:31.668Z] info    - Proxying the following domain:
+[2022-08-21T18:56:31.669Z] info      - *.example.my.domain
+[23:45:19] Extension host agent started.
+[23:45:22] [192.168.0.20][6e7e337a][ManagementConnection] New connection established.
+[23:45:23] [192.168.0.20][ae1e5b14][ExtensionHostConnection] New connection established.
+[23:45:24] [192.168.0.20][ae1e5b14][ExtensionHostConnection] <248> Launched Extension Host Process.
+[23:45:27] [192.168.0.20][6e7e337a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[23:45:27] [192.168.0.20][ae1e5b14][ExtensionHostConnection] <248> Extension Host Process exited with code: 0, signal: null.

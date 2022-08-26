@@ -1,0 +1,1 @@
+2022/08/17 20:01:40 [error] 286#286: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.22, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "192.168.0.29:81", referrer: "http://192.168.0.29:81/"

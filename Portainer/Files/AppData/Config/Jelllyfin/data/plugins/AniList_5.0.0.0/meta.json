@@ -1,0 +1,15 @@
+{
+  "category": "Metadata",
+  "changelog": "### Code or Repo Maintenance ###\n- 10.8 support (#18) @crobibero",
+  "description": "AniList metadata provider\n",
+  "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
+  "name": "AniList",
+  "overview": "AniList metadata provider",
+  "owner": "jellyfin",
+  "targetAbi": "10.8.0.0",
+  "timestamp": "2022-01-08T12:21:07.0000000Z",
+  "version": "5.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/AniList_5.0.0.0/jellyfin-plugin-anilist.png"
+}

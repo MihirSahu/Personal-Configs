@@ -1,0 +1,9 @@
+{ "translations": {
+    "Photos" : "Fotoj",
+    "Favorites" : "Pliŝataĵoj",
+    "Shared with you" : "Kunhavata kun vi",
+    "View" : "Vidi",
+    "An error occurred" : "Eraro okazis",
+    "Settings" : "Agordoj"
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
+}

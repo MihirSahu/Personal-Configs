@@ -1,0 +1,616 @@
+{
+    "1.12.2": [
+        {
+            "description": "Fixed a bug where the latest X days widget would not update for the failure graph",
+            "link": ""
+        }
+    ],
+    "1.12.1": [
+        {
+            "description": "Fixed a bug where the latest X days widget would not update (#680)",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/680"
+        }
+    ],
+    "1.12.0": [
+        {
+            "description": "Added InfluxDB intergation.",
+            "link": ""
+        }
+    ],
+    "1.11.1": [
+        {
+            "description": "Add option to show/hide columns in the all tests table.",
+            "link": ""
+        },
+        {
+            "description": "Add option to delete failed tests.",
+            "link": ""
+        }
+    ],
+    "1.11.0": [
+        {
+            "description": "Upgrade to Laravel 8.",
+            "link": ""
+        },
+        {
+            "description": "Refactor loads of back-end stuff.",
+            "link": ""
+        },
+        {
+            "description": "Refactor front-end stuff.",
+            "link": ""
+        }
+    ],
+    "1.10.4": [
+        {
+            "description": "Updated dependencies.",
+            "link": ""
+        }
+    ],
+    "1.10.3": [
+        {
+            "description": "Moved stuff into pages.",
+            "link": ""
+        }
+    ],
+    "1.10.2": [
+        {
+            "description": "Added option to disable scheduled tests.",
+            "link": ""
+        }
+    ],
+    "1.10.1": [
+        {
+            "description": "Fixed integrations config being empty causing healthchecks to not run on scheduled tests.",
+            "link": ""
+        }
+    ],
+    "1.10.0": [
+        {
+            "description": "Added automated build for ARM.",
+            "link": ""
+        },
+        {
+            "description": "Updated dependencies.",
+            "link": ""
+        }
+    ],
+    "1.9.10": [
+        {
+            "description": "Laravel will now log into daily files and logs will only be kept for 7 days.",
+            "link": ""
+        }
+    ],
+    "1.9.9": [
+        {
+            "description": "Updated dependencies.",
+            "link": ""
+        }
+    ],
+    "1.9.8": [
+        {
+            "description": "Fixed bug with minimum display setting.",
+            "link": ""
+        }
+    ],
+    "1.9.7": [
+        {
+            "description": "Added option to display minimum values on the top widgets.",
+            "link": ""
+        },
+        {
+            "description": "New general settings section.",
+            "link": ""
+        },
+        {
+            "description": "Updated dependencies.",
+            "link": ""
+        }
+    ],
+    "1.9.6": [
+        {
+            "description": "Clear the cache on restore.",
+            "link": ""
+        },
+        {
+            "description": "Updated dependencies.",
+            "link": ""
+        }
+    ],
+    "1.9.5": [
+        {
+            "description": "Added toggle to show failed tests on graphs.",
+            "link": ""
+        },
+        {
+            "description": "Updated dependencies.",
+            "link": ""
+        }
+    ],
+    "1.9.4": [
+        {
+            "description": "Changed integration config loading.",
+            "link": ""
+        },
+        {
+            "description": "Added more tests.",
+            "link": ""
+        }
+    ],
+    "1.9.3": [
+        {
+            "description": "Updated dependencies.",
+            "link": ""
+        }
+    ],
+    "1.9.2": [
+        {
+            "description": "Authentication bugfixes.",
+            "link": ""
+        }
+    ],
+    "1.9.1": [
+        {
+            "description": "Added conditional notifications.",
+            "link": ""
+        }
+    ],
+    "1.9.0": [
+        {
+            "description": "Added optional authentication.",
+            "link": ""
+        }
+    ],
+    "1.8.1": [
+        {
+            "description": "Added healthchecks.io test buttons.",
+            "link": ""
+        },
+        {
+            "description": "Added close buttons to modals.",
+            "link": ""
+        },
+        {
+            "description": "Back-end config handling changes.",
+            "link": ""
+        }
+    ],
+    "1.8.0": [
+        {
+            "description": "Added healthchecks.io integration.",
+            "link": ""
+        }
+    ],
+    "1.7.19": [
+        {
+            "description": "Updated dependencies.",
+            "link": ""
+        }
+    ],
+    "1.7.18": [
+        {
+            "description": "Fixed issue with widgets not updating when switching between failed/successful tests.",
+            "link": ""
+        },
+        {
+            "description": "Updated backup/restore functions to reflect new DB fields.",
+            "link": ""
+        }
+    ],
+    "1.7.17": [
+        {
+            "description": "Updated dependencies.",
+            "link": ""
+        }
+    ],
+    "1.7.16": [
+        {
+            "description": "Updated dependencies.",
+            "link": ""
+        }
+    ],
+    "1.7.15": [
+        {
+            "description": "Updates for manual installs.",
+            "link": ""
+        }
+    ],
+    "1.7.14": [
+        {
+            "description": "Updated dependencies.",
+            "link": ""
+        }
+    ],
+    "1.7.13": [
+        {
+            "description": "Added command to clear application queue.",
+            "link": ""
+        }
+    ],
+    "1.7.12": [
+        {
+            "description": "Updated dependencies.",
+            "link": ""
+        },
+        {
+            "description": "Added more unit tests.",
+            "link": ""
+        },
+        {
+            "description": "Display date on failure graph in local format.",
+            "link": ""
+        }
+    ],
+    "1.7.11": [
+        {
+            "description": "Changed failure graph to a bar chart.",
+            "link": ""
+        }
+    ],
+    "1.7.10": [
+        {
+            "description": "Fixed notifications bug.",
+            "link": ""
+        }
+    ],
+    "1.7.9": [
+        {
+            "description": "Added ability to delete speedtests from the database.",
+            "link": ""
+        }
+    ],
+    "1.7.8": [
+        {
+            "description": "Updated dependencies",
+            "link": ""
+        }
+    ],
+    "1.7.7": [
+        {
+            "description": "Fixed speedtest:latest output",
+            "link": ""
+        },
+        {
+            "description": "Updated dependencies",
+            "link": ""
+        }
+    ],
+    "1.7.6": [
+        {
+            "description": "Fixed issue with page failing to load",
+            "link": ""
+        }
+    ],
+    "1.7.5": [
+        {
+            "description": "Moved notification agent settings to DB",
+            "link": ""
+        },
+        {
+            "description": "Updated dependencies",
+            "link": ""
+        }
+    ],
+    "1.7.4": [
+        {
+            "description": "Stopped failed tests appearing in graphs",
+            "link": ""
+        },
+        {
+            "description": "Added failure rate graph",
+            "link": ""
+        },
+        {
+            "description": "Updated dependencies",
+            "link": ""
+        }
+    ],
+    "1.7.3": [
+        {
+            "description": "Updated dependencies",
+            "link": ""
+        },
+        {
+            "description": "Added notifications and logging of failed tests",
+            "link": ""
+        }
+    ],
+    "1.7.2": [
+        {
+            "description": "Updated UI for speedtest info",
+            "link": ""
+        },
+        {
+            "description": "Added field to track manual vs scheduled tests",
+            "link": ""
+        }
+    ],
+    "1.7.1": [
+        {
+            "description": "Updated dependencies",
+            "link": ""
+        }
+    ],
+    "1.7.0": [
+        {
+            "description": "Added notification toggles",
+            "link": ""
+        },
+        {
+            "description": "Added daily overview notification",
+            "link": ""
+        }
+    ],
+    "1.6.1": [
+        {
+            "description": "Added cli option to get version number",
+            "link": ""
+        }
+    ],
+    "1.6.0": [
+        {
+            "description": "Added telegram notifications",
+            "link": ""
+        }
+    ],
+    "1.5.6": [
+        {
+            "description": "Auto-update all tests table",
+            "link": ""
+        }
+    ],
+    "1.5.5": [
+        {
+            "description": "Store host/id of speedtest.net server",
+            "link": ""
+        }
+    ],
+    "1.5.4": [
+        {
+            "description": "Updated dependencies",
+            "link": ""
+        }
+    ],
+    "1.5.3": [
+        {
+            "description": "Changed speedtest client",
+            "link": ""
+        }
+    ],
+    "1.5.2": [
+        {
+            "description": "Updated dependencies",
+            "link": ""
+        },
+        {
+            "description": "Added CSV backup/restore formats",
+            "link": ""
+        }
+    ],
+    "1.5.1": [
+        {
+            "description": "Updated PHP dependencies",
+            "link": ""
+        },
+        {
+            "description": "Updated JS dependencies",
+            "link": ""
+        }
+    ],
+    "1.5.0": [
+        {
+            "description": "Added option to set base path",
+            "link": ""
+        }
+    ],
+    "1.4.1": [
+        {
+            "description": "Updated laravel framework",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/65"
+        },
+        {
+            "description": "Updated facade/ignition",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/64"
+        }
+    ],
+    "1.4.0": [
+        {
+            "description": "Added custom speedtest.net server ids",
+            "link": ""
+        },
+        {
+            "description": "Added custom schedule",
+            "link": ""
+        },
+        {
+            "description": "Updated react toastify",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/62"
+        },
+        {
+            "description": "Updated facade/ignition",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/60"
+        }
+    ],
+    "1.3.7": [
+        {
+            "description": "Updated laravel framework",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/52"
+        },
+        {
+            "description": "Updated react toastify",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/53"
+        },
+        {
+            "description": "Updated bootstrap",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/49"
+        },
+        {
+            "description": "Switch to JSON output from speedtest-cli",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/issues/55"
+        },
+        {
+            "description": "Changed \"scan\" to \"test\"",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/issues/56"
+        }
+    ],
+    "1.3.6": [
+        {
+            "description": "Updated react router",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/50"
+        },
+        {
+            "description": "Updated react toastify",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/48"
+        },
+        {
+            "description": "Updated bootstrap",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/49"
+        },
+        {
+            "description": "Updated the way the changelog is displayed",
+            "link": ""
+        }
+    ],
+    "1.3.5": [
+        {
+            "description": "Updated laravel CORS",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/40"
+        },
+        {
+            "description": "Updated react toastify",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/43"
+        },
+        {
+            "description": "Updated react router",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/42"
+        }
+    ],
+    "1.3.4": [
+        {
+            "description": "Updated laravel framework",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/37"
+        }
+    ],
+    "1.3.3": [
+        {
+            "description": "Updated jQuery",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/32"
+        }
+    ],
+    "1.3.2": [
+        {
+            "description": "Updated laravel framework",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/28"
+        },
+        {
+            "description": "Updated laravel ui",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/30"
+        }
+    ],
+    "1.3.1": [
+        {
+            "description": "Updated laravel-cors",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/26"
+        }
+    ],
+    "1.3.0": [
+        {
+            "description": "Added discord notifications",
+            "link": ""
+        }
+    ],
+    "1.2.9": [
+        {
+            "description": "Updated laravel framework",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/23"
+        }
+    ],
+    "1.2.8": [
+        {
+            "description": "Added favicons",
+            "link": ""
+        }
+    ],
+    "1.2.7": [
+        {
+            "description": "Added modal to show changelog",
+            "link": ""
+        },
+        {
+            "description": "Updated sass",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/22"
+        },
+        {
+            "description": "Updated laravel framework",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/19"
+        },
+        {
+            "description": "Updated react-bootstrap",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/20"
+        },
+        {
+            "description": "Updated phpunit",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/21"
+        }
+    ],
+    "1.2.6": [
+        {
+            "description": "Changed default view to last 7 days rather than last 30.",
+            "link": ""
+        },
+        {
+            "description": "Ordered all tests table by created date rather than id value.",
+            "link": ""
+        }
+    ],
+    "1.2.5": [
+        {
+            "description": "Added max and average values to the latest results cards.",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/commit/2adb977cfb75308d947426db81593df3df2c4839"
+        }
+    ],
+    "1.2.4": [
+        {
+            "description": "Set radius of chart point to 0 so a graph with lots of data looks less cluttered.",
+            "link": ""
+        },
+        {
+            "description": "Updated JS dependencies",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/pull/11"
+        }
+    ],
+    "1.2.3": [
+        {
+            "description": "Changed order of speedtests table show the latest results first.",
+            "link": ""
+        }
+    ],
+    "1.2.2": [
+        {
+            "description": "Added a table of all speedtests",
+            "link": ""
+        }
+    ],
+    "1.2.1": [
+        {
+            "description": "Fixed issue where changelog entry with a link wouldn't show.",
+            "link": ""
+        }
+    ],
+    "1.2.0": [
+        {
+            "description": "Added an updating mechainism within the app to keep code up to date.",
+            "link": "https://github.com/henrywhitaker3/Speedtest-Tracker/commit/710a770d40e59e1b985053c5a7c9f43580132570?diff=unified"
+        }
+    ],
+    "1.1.0": [
+        {
+            "description": "Added a version number to the app",
+            "link": ""
+        },
+        {
+            "description": "Added a backup/restore function",
+            "link": ""
+        }
+    ]
+}

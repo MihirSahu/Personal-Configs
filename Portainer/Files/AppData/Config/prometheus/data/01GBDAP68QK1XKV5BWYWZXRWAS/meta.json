@@ -1,0 +1,17 @@
+{
+	"ulid": "01GBDAP68QK1XKV5BWYWZXRWAS",
+	"minTime": 1661515201918,
+	"maxTime": 1661522400000,
+	"stats": {
+		"numSamples": 393378,
+		"numSeries": 1866,
+		"numChunks": 3063
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01GBDAP68QK1XKV5BWYWZXRWAS"
+		]
+	},
+	"version": 1
+}

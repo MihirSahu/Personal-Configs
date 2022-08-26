@@ -1,0 +1,8 @@
+{ "translations": {
+    "Photos" : "Foto",
+    "Favorites" : "Favorites",
+    "Shared with you" : "E ndarë me ju",
+    "View" : "Shiko",
+    "Settings" : "Rregullimet"
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
+}

@@ -1,0 +1,2 @@
+[17/Aug/2022:20:05:06 -0400] 400 - GET http 192.168.0.29 "/" [Client 192.168.0.22] [Length 654] [Gzip -] "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" "-"
+[17/Aug/2022:20:05:07 -0400] 400 - GET http 192.168.0.29 "/favicon.ico" [Client 192.168.0.22] [Length 654] [Gzip -] "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" "http://192.168.0.29:443/"

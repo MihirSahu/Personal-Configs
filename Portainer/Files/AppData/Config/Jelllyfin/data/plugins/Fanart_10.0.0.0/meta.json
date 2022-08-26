@@ -1,0 +1,15 @@
+{
+  "category": "Metadata",
+  "changelog": "- chore(deps): update dependency microsoft.extensions.http to v6 (#41) @renovate\n\n### Bug Fixes ###\n- fix tv series no data (#38) @kdays\n\n### CI \u0026 build changes ###\n- fix: meta ci workflows (#39) @h1dden-da3m0n",
+  "description": "Scrape poster images for movies, shows, and artists in your library.",
+  "guid": "170a157f-ac6c-437a-abdd-ca9c25cebd39",
+  "name": "Fanart",
+  "overview": "Scrape poster images from Fanart",
+  "owner": "jellyfin",
+  "targetAbi": "10.8.0.0",
+  "timestamp": "2022-06-12T09:52:36.0000000Z",
+  "version": "10.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/Fanart_10.0.0.0/jellyfin-plugin-fanart.png"
+}

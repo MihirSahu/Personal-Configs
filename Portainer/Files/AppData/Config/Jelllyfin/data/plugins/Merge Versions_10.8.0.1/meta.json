@@ -1,0 +1,15 @@
+{
+  "category": "General",
+  "changelog": "Update to Jellyfin 10.8.0-beta1\n",
+  "description": "Jellyfin Merge Versions plugin is a plugin that automatically groups every repeated movie\n",
+  "guid": "f21bbed8-3a97-4d8b-88b2-48aaa65427cb",
+  "name": "Merge Versions",
+  "overview": "Automatically merge repeated movies",
+  "owner": "danieladov",
+  "targetAbi": "10.8.0.0",
+  "timestamp": "2022-04-11T15:39:00.0000000Z",
+  "version": "10.8.0.1",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": ""
+}

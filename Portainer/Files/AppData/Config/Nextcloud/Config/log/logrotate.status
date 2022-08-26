@@ -1,0 +1,7 @@
+logrotate state -- version 2
+"/var/log/acpid.log" 2022-8-16-2:0:0
+"/config/log/nginx/access.log" 2022-8-21-2:0:0
+"/config/log/nginx/error.log" 2022-8-21-2:0:0
+"/var/log/samba/*.log" 2022-8-16-2:0:0
+"/config/log/php/error.log" 2022-8-21-2:0:0
+"/var/log/samba/log.*" 2022-8-16-2:0:0

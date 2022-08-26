@@ -1,0 +1,15 @@
+{
+  "category": "Metadata",
+  "changelog": "### Bug Fixes ###\n- Fix pagination (#92) @MBR-0001\n\n### Tests ###\n- Minor improvements (#90) @Bond-009\n\n### Code or Repo Maintenance ###\n- Use meta ci (#101) @crobibero\n- chore(deps): bump Microsoft.NET.Test.Sdk from 16.11.0 to 17.0.0 (#91) @dependabot\n- Minor improvements (#90) @Bond-009\n- Replace %20 with \u002B in SearchSubtitlesAsync (#89) @MBR-0001\n- Implement Bad Gateway handling \u0026 code cleanup (#87) @MBR-0001\n\n### Dependency updates ###\n- chore(deps): bump Microsoft.NET.Test.Sdk from 16.11.0 to 17.0.0 (#91) @dependabot\n\n### CI \u0026 build changes ###\n- Use meta ci (#101) @crobibero",
+  "description": "Download subtitles from the internet to use with your media files.",
+  "guid": "4b9ed42f-5185-48b5-9803-6ff2989014c4",
+  "name": "Open Subtitles",
+  "overview": "Download subtitles for your media",
+  "owner": "jellyfin",
+  "targetAbi": "10.8.0.0",
+  "timestamp": "2022-03-27T20:04:24.0000000Z",
+  "version": "18.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/Open Subtitles_18.0.0.0/jellyfin-plugin-opensubtitles.png"
+}

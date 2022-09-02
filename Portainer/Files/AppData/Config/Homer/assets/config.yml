@@ -113,6 +113,20 @@ services:
         keywords: ""
         url: "https://192.168.0.29:3339"
         target: "_blank" # optional html a tag target attribute
+      - name: "Gitea"
+        logo: "assets/tools/gitea.png"
+        subtitle: "Self-hosted git service"
+        tag: "app"
+        keywords: ""
+        url: "http://192.168.0.29:3333"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Vikunja"
+        logo: "assets/tools/vikunja.png"
+        subtitle: "Self-host to-do app"
+        tag: "app"
+        keywords: ""
+        url: "http://192.168.0.29:3456"
+        target: "_blank" # optional html a tag target attribute
   - name: "Server"
     icon: "fas fa-cloud"
     items:

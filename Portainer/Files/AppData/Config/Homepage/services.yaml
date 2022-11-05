@@ -1,0 +1,61 @@
+---
+# For configuration options and examples, please see:
+# https://github.com/benphelps/homepage/wiki/Services
+
+- Applications:
+  - ShellInABox:
+        icon: https://github.com/MihirSahu/Personal-Configs/raw/main/Portainer/Files/AppData/Config/Homer/assets/tools/terminal.png
+        href: https://192.168.0.29:4200
+        description: SSH into the server
+  - Jellyfin:
+        icon: https://github.com/MihirSahu/Personal-Configs/raw/main/Portainer/Files/AppData/Config/Homer/assets/tools/jellyfin.png
+        href: http://192.168.0.29:8096
+        description: Media Server
+  - Guacamole:
+        icon: https://github.com/MihirSahu/Personal-Configs/raw/main/Portainer/Files/AppData/Config/Homer/assets/tools/guacamole.jpg
+        href: http://192.168.0.29:9100"
+        description: Connect to other devices in the network
+  - File Browser:
+        icon: https://github.com/MihirSahu/Personal-Configs/raw/main/Portainer/Files/AppData/Config/Homer/assets/tools/file_browser.svg
+        href: http://192.168.0.29:8123
+        description: Browse files on the server
+  - Code Server:
+        icon: https://github.com/MihirSahu/Personal-Configs/raw/main/Portainer/Files/AppData/Config/Homer/assets/tools/vscode.png
+        href: http://192.168.0.29:8443
+        description: VSCode server
+  - NextCloud:
+        icon: https://github.com/MihirSahu/Personal-Configs/raw/main/Portainer/Files/AppData/Config/Homer/assets/tools/nextcloud.png
+        href: http://192.168.0.29:3339
+        description: VSCode server
+  - GiTea:
+        icon: https://github.com/MihirSahu/Personal-Configs/raw/main/Portainer/Files/AppData/Config/Homer/assets/tools/gitea.png
+        href: http://192.168.0.29:3333
+        description: Self-hosted git service
+  - Vikunja:
+        icon: https://github.com/MihirSahu/Personal-Configs/raw/main/Portainer/Files/AppData/Config/Homer/assets/tools/vikunja.png
+        href: http://192.168.0.29:3456
+        description: Self-hosted to-do app
+
+- Server:
+    - Portainer:
+        icon: https://github.com/MihirSahu/Personal-Configs/raw/main/Portainer/Files/AppData/Config/Homer/assets/tools/portainer.jpg
+        href: http://192.168.0.29:9000
+        description: Manager docker containers on the server
+    - Cockpit:
+        icon: https://github.com/MihirSahu/Personal-Configs/raw/main/Portainer/Files/AppData/Config/Homer/assets/tools/cockpit.png
+        href: http://192.168.0.29:9090
+        description: Manager the server through a GUI
+    - Nginx Proxy Manager:
+        icon: https://github.com/MihirSahu/Personal-Configs/raw/main/Portainer/Files/AppData/Config/Homer/assets/tools/nginx.png
+        href: http://192.168.0.29:81
+        description: Manage Nginx through a GUI
+
+- Monitoring:
+    - Prometheus:
+        icon: https://github.com/MihirSahu/Personal-Configs/raw/main/Portainer/Files/AppData/Config/Homer/assets/tools/prometheus.png
+        href: http://192.168.0.29:3000
+        description: Monitor system resources
+    - Speedtest Tracker:
+        icon: https://github.com/MihirSahu/Personal-Configs/raw/main/Portainer/Files/AppData/Config/Homer/assets/tools/speedtest-tracker.png
+        href: http://192.168.0.29:8765
+        description: Internet speed test

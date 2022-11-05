@@ -1,0 +1,78 @@
+[2022-11-05T02:10:01.792Z] error: Failed to load services.yaml, please check for errors
+[2022-11-05T02:10:01.801Z] error: bad indentation of a sequence entry (6:23)
+
+ 3 | # https://github.com/benphelps/homepage/wiki/Services
+ 4 | 
+ 5 | - Applications
+ 6 |     - My First Service:
+---------------------------^
+ 7 |         href: http://localhost/
+ 8 |         description: Homepage is awesome
+[2022-11-05T02:10:01.810Z] error: Failed to load services.yaml, please check for errors
+[2022-11-05T02:10:01.813Z] error: bad indentation of a sequence entry (6:23)
+
+ 3 | # https://github.com/benphelps/homepage/wiki/Services
+ 4 | 
+ 5 | - Applications
+ 6 |     - My First Service:
+---------------------------^
+ 7 |         href: http://localhost/
+ 8 |         description: Homepage is awesome
+[2022-11-05T02:10:02.127Z] error: Failed to load services.yaml, please check for errors
+[2022-11-05T02:10:02.131Z] error: bad indentation of a sequence entry (6:23)
+
+ 3 | # https://github.com/benphelps/homepage/wiki/Services
+ 4 | 
+ 5 | - Applications
+ 6 |     - My First Service:
+---------------------------^
+ 7 |         href: http://localhost/
+ 8 |         description: Homepage is awesome
+[2022-11-05T02:57:25.503Z] error: Failed to load services.yaml, please check for errors
+[2022-11-05T02:57:25.508Z] error: undefined
+[2022-11-05T02:57:25.546Z] error: Failed to load services.yaml, please check for errors
+[2022-11-05T02:57:25.548Z] error: undefined
+[2022-11-05T02:57:25.898Z] error: Failed to load services.yaml, please check for errors
+[2022-11-05T02:57:25.899Z] error: undefined
+[2022-11-05T03:01:39.140Z] error: Failed to load services.yaml, please check for errors
+[2022-11-05T03:01:39.141Z] error: undefined
+[2022-11-05T03:15:51.647Z] error: Failed to load services.yaml, please check for errors
+[2022-11-05T03:15:51.649Z] error: bad indentation of a sequence entry (19:13)
+
+ 16 |         href: http://192.168.0.29:8123
+ 17 |         description: Browse files on the server
+ 18 |   - Code Server
+ 19 |         href: http://192.168.0.29:8443
+------------------^
+ 20 | 
+ 21 | - Server:
+[2022-11-05T03:15:51.678Z] error: Failed to load services.yaml, please check for errors
+[2022-11-05T03:15:51.680Z] error: bad indentation of a sequence entry (19:13)
+
+ 16 |         href: http://192.168.0.29:8123
+ 17 |         description: Browse files on the server
+ 18 |   - Code Server
+ 19 |         href: http://192.168.0.29:8443
+------------------^
+ 20 | 
+ 21 | - Server:
+[2022-11-05T03:15:52.078Z] error: Failed to load services.yaml, please check for errors
+[2022-11-05T03:15:52.080Z] error: bad indentation of a sequence entry (19:13)
+
+ 16 |         href: http://192.168.0.29:8123
+ 17 |         description: Browse files on the server
+ 18 |   - Code Server
+ 19 |         href: http://192.168.0.29:8443
+------------------^
+ 20 | 
+ 21 | - Server:
+[2022-11-05T04:58:26.890Z] error: Failed to load services.yaml, please check for errors
+[2022-11-05T04:58:26.891Z] error: bad indentation of a sequence entry (19:13)
+
+ 16 |         href: http://192.168.0.29:8123
+ 17 |         description: Browse files on the server
+ 18 |   - Code Server
+ 19 |         href: http://192.168.0.29:8443
+------------------^
+ 20 | 
+ 21 | - Server:

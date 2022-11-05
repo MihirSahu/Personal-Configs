@@ -1,0 +1,8 @@
+---
+# For configuration options and examples, please see:
+# https://github.com/benphelps/homepage/wiki/Settings
+
+title: Raspberry Pi Server
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey

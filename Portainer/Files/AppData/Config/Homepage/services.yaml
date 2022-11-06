@@ -35,6 +35,10 @@
         icon: https://github.com/MihirSahu/Personal-Configs/raw/main/Portainer/Files/AppData/Config/Homer/assets/tools/vikunja.png
         href: http://192.168.0.29:3456
         description: Self-hosted to-do app
+  - Monica:
+        icon: https://www.monicahq.com/img/favicon.png
+        href: http://192.168.0.29:5000
+        description: Self-hosted contact management app
 
 - Server:
     - Portainer:
